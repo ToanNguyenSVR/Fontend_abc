@@ -1,0 +1,23 @@
+.about__section {
+  display: flex;
+  // height: 100vh;
+  &__content {
+    margin-left: 20px;
+    width: 50%;
+    padding: 10px;
+    &__groupbtn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      // width: 70%;
+      button {
+        margin-right: 10px;
+      }
+    }
+  }
+  &__img {
+    flex-grow: 1;
+    height: 600px;
+  }
+}

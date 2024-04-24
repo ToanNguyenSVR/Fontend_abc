@@ -1,0 +1,28 @@
+.step-content {
+  padding: 20px;
+  display: none;
+  height: 50vh;
+  overflow: auto;
+
+  &.active {
+    display: block;
+  }
+}
+
+.step-child-content {
+  padding: 20px;
+  display: none;
+  overflow: auto;
+
+  &.active {
+    display: block;
+  }
+}
+
+.job-step {
+  position: sticky;
+  top: -25px;
+  background-color: #fff;
+  padding: 20px;
+  z-index: 10000000000;
+}

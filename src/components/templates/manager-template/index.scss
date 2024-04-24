@@ -1,0 +1,48 @@
+.step-content {
+  height: fit-content;
+  display: none;
+  max-height: 700px !important;
+}
+.full-width-drawer .ant-drawer-content-wrapper {
+  width: 100% !important;
+  max-width: 100% !important;
+  background-color: red !important;
+}
+
+.full-width-drawer .ant-drawer-body {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.ant-drawer-content-wrapper {
+  width: 100% !important;
+}
+
+.custom-shape-divider-top-1692171216 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(360deg);
+  z-index: 1 !important;
+}
+
+.custom-shape-divider-top-1692171216 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 354px;
+  transform: rotateY(360deg);
+  z-index: 1 !important;
+}
+
+.custom-shape-divider-top-1692171216 .shape-fill {
+  fill: #4096ff;
+  z-index: 1 !important;
+}
+
+.manager-template {
+  padding: 10px;
+}

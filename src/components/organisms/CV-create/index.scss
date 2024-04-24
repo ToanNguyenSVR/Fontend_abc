@@ -1,0 +1,18 @@
+.react-pdf__Page__annotations {
+  display: none;
+}
+
+.react-pdf__Page__textContent {
+  display: none;
+}
+
+.wrapper {
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+  flex-grow: 1;
+}
+
+.file__form {
+  padding: 20px;
+}

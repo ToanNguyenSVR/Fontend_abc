@@ -1,0 +1,24 @@
+.job-detail {
+  height: 100%;
+}
+
+.job-stage-detail {
+  height: 100%;
+
+  .ant-row {
+    height: 100%;
+    overflow: auto;
+
+    .ant-col {
+      height: 100%;
+      overflow: auto;
+    }
+  }
+}
+
+.ant-drawer-body {
+  //   background-color: red;
+  max-height: 100%;
+  //   overflow: hidden;
+  //   overflow: hidden !important;
+}

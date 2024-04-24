@@ -1,0 +1,18 @@
+.input-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  width: 100%;
+  border-radius: 9px;
+  border: none;
+  // padding: 20px 0px;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 20px;
+  outline: none;
+  box-sizing: border-box;
+
+  &::placeholder {
+    color: #a7a3ff;
+  }
+}

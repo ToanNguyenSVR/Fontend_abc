@@ -1,0 +1,22 @@
+.ant-card {
+  //   background-color: red;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Điều chỉnh giá trị ở đây */
+}
+
+.ant-tabs-tab {
+  padding: 10px 10px !important;
+}
+
+.ant-tabs-content.ant-tabs-content-left {
+  height: 100% !important;
+  scroll-padding-top: 20px;
+
+  > div {
+    height: 650px !important;
+    max-height: unset !important;
+  }
+
+  // .ant-card {
+  //   height: 90% !important;
+  // }
+}

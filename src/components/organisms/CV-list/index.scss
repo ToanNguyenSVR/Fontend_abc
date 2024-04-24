@@ -1,0 +1,13 @@
+.cv-list h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cv-list {
+  height: 100dvh;
+  &.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

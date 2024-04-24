@@ -1,0 +1,26 @@
+.form-card {
+  width: 100%;
+  margin: 30px auto;
+}
+
+@media (max-width: 768px) {
+  .form-card {
+    margin: 10px;
+  }
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+@media (max-width: 576px) {
+  .button-container {
+    justify-content: center;
+  }
+}
+
+.prev-button {
+  margin-right: 8px;
+}

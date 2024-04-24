@@ -1,0 +1,23 @@
+.group__cate {
+  &__title {
+    display: flex;
+    flex-direction: column;
+  }
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__sub {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 80%;
+      align-items: center;
+    }
+  }
+  &__btn {
+  }
+  &__btn button {
+    width: 10%;
+  }
+}

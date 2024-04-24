@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+@media (max-width: 600px) {
+  nav {
+    ul {
+      position: fixed;
+      display: flex;
+      flex-direction: column;
+      top: 0;
+      bottom: 0;
+      left: -100%;
+      width: 300px;
+      background-color: #fff;
+      z-index: 101;
+      transition: all 1s;
+      padding: 20px;
+    }
+
+    &.active {
+      ul {
+        left: 0%;
+      }
+    }
+  }
+}

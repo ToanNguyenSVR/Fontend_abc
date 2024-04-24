@@ -1,0 +1,8 @@
+.headhunter {
+  // height: 100dvh !important;
+  &.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

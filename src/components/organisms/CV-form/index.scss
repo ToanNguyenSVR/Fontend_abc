@@ -1,0 +1,14 @@
+.cv-form {
+  flex-grow: 1;
+  position: sticky;
+  top: 0;
+  .content {
+    display: none;
+    width: 100%;
+    min-height: 70dvh;
+
+    &.active {
+      display: flex !important;
+    }
+  }
+}

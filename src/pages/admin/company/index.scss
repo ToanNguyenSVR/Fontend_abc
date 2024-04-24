@@ -1,0 +1,21 @@
+.step-content {
+  height: fit-content;
+  display: none;
+  max-height: 400px;
+
+  .active {
+    display: block;
+  }
+
+  .ant-descriptions-row:last-child {
+    .ant-descriptions-item-container {
+      flex-direction: column;
+
+      .ant-descriptions-item-content {
+        a {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

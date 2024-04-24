@@ -1,0 +1,30 @@
+.cv-detail {
+  display: flex;
+  max-height: 100%;
+
+  &__file {
+    // background-color: red;
+    flex: 0 0 auto;
+
+    &.hide {
+      position: relative;
+      &::after {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        content: '';
+        background-color: rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(7px);
+      }
+    }
+  }
+
+  &__information {
+    flex-grow: 1;
+    padding: 20px;
+    flex: 1 1 auto;
+    overflow-y: auto;
+  }
+}

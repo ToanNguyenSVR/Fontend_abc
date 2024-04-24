@@ -1,0 +1,50 @@
+.filter {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+/* Style cho trường nhập liệu và dropdown */
+.input-field {
+  width: 100%;
+}
+
+.select-field {
+  width: 200px;
+}
+
+/* Style cho nút Filter */
+.filter-button {
+  margin-top: 10px;
+}
+.radio-button {
+  margin: 0 5px;
+  border-radius: 10px !important;
+  border-inline-start: 1px solid #d9d9d9 !important;
+  .icon {
+    color: #a6a6a6;
+  }
+}
+.ant-radio-button-wrapper:not(:first-child)::before {
+  display: none !important;
+}
+.radio-group {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.radio-button-selected {
+  background-color: #1890ff; /* Màu nền khi được chọn */
+  color: #fff; /* Màu văn bản khi được chọn */
+  .icon {
+    color: #fff;
+  }
+}

@@ -1,0 +1,60 @@
+.mangage-candidate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .skills {
+    max-height: 40px; /* Adjust the maximum height as needed */
+    overflow-x: scroll;
+    // overflow
+    overflow-y: hidden;
+  }
+
+  .skills-content {
+    display: flex;
+    gap: 4px;
+    padding-right: 8px;
+    flex-wrap: nowrap;
+  }
+
+  .pagination-container {
+    margin-top: 20px;
+  }
+}
+.meta {
+  margin-bottom: 10px;
+  .card-title {
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .card-description {
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.page {
+  background-color: transparent;
+  .job-list {
+    height: 100dvh;
+    &.isLoading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .filter {
+      margin-bottom: 5px;
+    }
+  }
+  .job-item {
+    &.choose {
+      border: solid 1px #000;
+      border-radius: 20px;
+    }
+  }
+}

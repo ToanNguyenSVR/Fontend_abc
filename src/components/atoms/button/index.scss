@@ -1,0 +1,24 @@
+.btn_container {
+  width: 100%;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  width: 100%;
+  height: 60px;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #1657ff;
+  border: 1px solid #1657ff;
+  cursor: pointer;
+  &:hover {
+    background-color: #1657ff !important;
+    color: #fff !important;
+  }
+}

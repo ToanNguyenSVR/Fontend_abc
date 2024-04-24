@@ -1,0 +1,19 @@
+.group-button-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button.social-icon {
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: none;
+  margin: 20px;
+}
+.facebook {
+  background-color: #4267b2;
+}
+.google {
+  background-color: #ea4235;
+}

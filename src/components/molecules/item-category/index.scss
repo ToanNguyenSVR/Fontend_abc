@@ -1,0 +1,43 @@
+.item-category {
+  background-color: #ffffff;
+  width: 350px;
+  height: 310px;
+  border: 0.5px solid #4b9ad8;
+  border-radius: 4.82963px;
+  margin: 18px 34px;
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__img {
+      width: 25px;
+      height: 25px;
+      padding: 0 25px;
+    }
+    &__type {
+      padding-right: 30px;
+    }
+  }
+  &__name {
+    padding: 0 25px;
+  }
+  &__description {
+    padding: 0 25px;
+  }
+  &__bottom {
+    display: flex;
+    justify-content: center;
+    padding: 0 25px;
+    &__salary {
+      display: flex;
+      align-items: center;
+      // padding-right: 0 25px;
+      width: 50%;
+    }
+    &__btn {
+      flex-grow: 1;
+      // margin-right: 0 25px;
+    }
+  }
+}

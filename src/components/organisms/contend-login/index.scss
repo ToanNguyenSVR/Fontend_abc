@@ -1,0 +1,12 @@
+.img_login_content {
+  position: relative;
+  left: 0px;
+  top: 200px;
+  width: 313px;
+  height: 556px;
+}
+@media (max-width: 1590px) {
+  .img_login_content {
+    display: none;
+  }
+}
